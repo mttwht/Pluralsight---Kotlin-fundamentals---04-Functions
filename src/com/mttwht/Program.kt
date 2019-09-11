@@ -3,7 +3,7 @@
 package com.mttwht
 
 fun main(args: Array<String>) {
-    log("Hello, World")
+    log("Hello, World", logLevel = 2)
     println(max(1,2))
 }
 
