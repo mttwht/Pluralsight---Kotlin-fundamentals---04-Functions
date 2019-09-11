@@ -3,12 +3,13 @@
 package com.mttwht
 
 fun main(args: Array<String>) {
-    display("Hello, World")
+    log("Hello, World")
     println(max(1,2))
 }
 
-fun display(message: String) : Boolean {
-    println(message)
+@JvmOverloads
+fun log(message: String, logLevel: Int = 1) : Boolean {
+    println("$logLevel: $message")
     return true
 }
 
