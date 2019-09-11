@@ -1,3 +1,5 @@
+@file:JvmName("DisplayFunctions")
+
 package com.mttwht
 
 fun main(args: Array<String>) {
